@@ -3,7 +3,7 @@ import java.util.Random;
 public class Main {
 
     public static String generatePassword(int length) {
-        String alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        String alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1";
         Random random = new Random();
         StringBuilder password = new StringBuilder();
 
